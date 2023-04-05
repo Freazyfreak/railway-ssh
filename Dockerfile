@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:latest
 ARG DEBIAN_FRONTEND=noninteractive
 ARG USER=root
 USER $USER
