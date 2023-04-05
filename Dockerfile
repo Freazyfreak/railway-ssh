@@ -1,4 +1,4 @@
-FROM sandy1709/catuserbot:slim-buster
+FROM debian:stretch
 ARG DEBIAN_FRONTEND=noninteractive
 ARG USER=root
 USER $USER
